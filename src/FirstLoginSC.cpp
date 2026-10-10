@@ -65,7 +65,7 @@ class FirstLoginScripts : public PlayerScript
 public:
     FirstLoginScripts() : PlayerScript("FirstLoginScripts") { }
 
-    void OnFirstLogin(Player* player) override
+    void OnPlayerFirstLogin(Player* player) override
     {
         if (FLoginEnable)
         {
